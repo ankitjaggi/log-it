@@ -7,8 +7,13 @@ module.exports = {
 	},
 
     error: function(text) {
-        var final_text = formatDateTime() + String(text);
-        console.log(chalk.red(final_text));
+        var final_text = formatDateTime() + chalk.red(String(text));
+        console.log(final_text);
+    },
+
+    debug: function(text) {
+        var final_text = formatDateTime() + chalk.yellow(String(text));
+        console.log(final_text);
     }	
 };
 
