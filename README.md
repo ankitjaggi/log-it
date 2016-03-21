@@ -1,19 +1,21 @@
-log-it
+log-this
 =========
 
 A small library providing methods for logging
 
 ## Installation
 
-  npm install log-it --save
+  npm install log-this --save
 
 ## Usage
 
-  var log_it = require('log-it');
+  var log_this = require('log-this');
 
-  log_it.log('This will appear in white');
-  log_it.debug('This will appear in yellow');
-  log_it.error('This will appear in red');
+  log_this.log('This will appear in white');
+
+  log_this.debug('This will appear in yellow');
+  
+  log_this.error('This will appear in red');
 
 
 ## Release History
