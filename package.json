@@ -11,7 +11,12 @@
     "url": "git://github.com/ankitjaggi/log-it.git"
   },
   "author": "Ankit Jaggi <ankit.jaggi@live.in> (http://ankitjaggi.com)",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ankitjaggi/log-this/blob/master/LICENSE-MIT"
+    }
+  ],  
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
