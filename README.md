@@ -13,13 +13,14 @@ A small library providing methods for logging
    var log_this = require('log-this');
 
    log_this.log('This will appear in white');
-    // Output: [DD/MM/YYYY HH:MM:SS] : This will appear in white
+   // Output: [DD/MM/YYYY HH:MM:SS] : This will appear in white
 
    log_this.debug('This will appear in yellow');
    // Output: [DD/MM/YYYY HH:MM:SS] : This will appear in yellow
   
    log_this.error('This will appear in red');
    // Output: [DD/MM/YYYY HH:MM:SS] : This will appear in red
+
   ```
   
 
